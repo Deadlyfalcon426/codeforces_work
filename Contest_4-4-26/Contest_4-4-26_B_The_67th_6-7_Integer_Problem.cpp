@@ -1,9 +1,3 @@
-/*
-https://codeforces.com/contest/2218/problem/B
-so this looks like greedy tbh
-just sort them by size and turn the small ones into negative
-fun fun fun
-*/
 #include <iostream>
 #include <vector>
 #include <algorithm>

@@ -1,16 +1,3 @@
-/*
-https://codeforces.com/contest/2220/problem/B
-this one reads pretty hard
-check if we can move forward or backward, if we wait somewhere for cycle_length long then that
-attempt is gone
-i feel like brute force might be it here cause elegance looks a bit difficult
-maybe a more mathematical rather than visual approach
-i feel like taking algorithmic or discrete math would have bailed me out here
-OK WHAT IF WE LOOK FOR SECTIONS THAT ARE UNPASSABLE
-like [1,1,1,1,0,1] volunteers with cycle length 2, then 
-ok that was reallllly hard to visualize
-what if I built something to visualize it second by second? maybe it would also be the key!
-*/
 #include <vector>
 #include <iostream>
 using namespace std;

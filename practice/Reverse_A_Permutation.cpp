@@ -1,6 +1,6 @@
 /*
 <my first big C++ program!
-im really happy with how it turned out even though i needed help from claude adter
+im really happy with how it turned out even though i needed help from claude after
 I encountered my first time complexity issue, a TLE limit
 I hope to improve from here greatly!
 3/20/2026

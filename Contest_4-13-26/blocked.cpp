@@ -3,18 +3,6 @@
 #include <algorithm>
 #include <set>
 using namespace std;
-/*
-https://codeforces.com/contest/2220/problem/A
-our goal today is to order this basically so no numbers before can sum to the one at the end
-what stands out immediately is sorting descending, example [3,4,7] to [7,4,3], 
-and this seems worth a shot
-ok worked pretty damn well quite easy this too like 20-30 min i think? 
-wasnt paying attention time flew by
-only issue was dupes can count as sums so we implemented check_unique using a set idk if that was the
-most efficient way...
-spent 20 min debugging and 25 writing first code, mistake was dumb used both push back and resize
-then some black magic with the bool function bro im not doing the bool funct again for a while
-*/
 bool is_there_no_dupes(vector<int> sequence){
     set<int> unique_elements(sequence.begin(), sequence.end());
     if (sequence.size()==1){

@@ -44,7 +44,7 @@ long long combat(vector<long long> monster_powers, long long combat_power, long 
                 //defeat monster
                 combat_power = combat_power+monster_power;
             }
-            //if we dont got nun flip flops
+            //if we dont have any flip flops
             else{
                 //defeat monster
                 combat_power = combat_power+monster_power;
@@ -87,9 +87,10 @@ int main(){
     the amount of same-level monsters, then take them out
     OK WAIT I GOT IT
     SORT ALL THE MONSTER LISTS!!!
+    smallest to greatest
     for each monster in the lane, check if it can be killed. 
     if yes, 
-        add as many flip flopsas possible to make it same level. then kill it and go to next monster
+        add as many flip flops as possible to make it same level. then kill it and go to next monster
     if no,
         wrap it up lil bro because they are sorted there's no way to beat him*/
 

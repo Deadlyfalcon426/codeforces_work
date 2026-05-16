@@ -32,7 +32,7 @@ int main(){
     for (int round = 0; round<test_cases; ++round){
         used_characters.clear();
         for (char letter: sequences[round]){
-            //if not found - ie first time solve
+            //if not found - meaning first time solve
             if (find(used_characters.begin(), used_characters.end(),letter) == used_characters.end()){
                 used_characters.push_back(letter);
                 scores_each_round[round]+=2;

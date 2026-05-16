@@ -1,11 +1,3 @@
-/*
-contest problem: https://codeforces.com/contest/2218/problem/A
-dumb name tbh
-very easy
-extremley easy...
-*/
-
-
 #include <iostream>
 #include <algorithm>
 #include <vector>
