@@ -90,3 +90,17 @@ Choice of data structure matters even in simple problems:
 ### Takeaway
 Some problems are pure case analysis.
 Fast classification is often the real skill being tested.
+
+## B Absolute Cinema
+Link: https://codeforces.com/contest/2229/problem/B
+---
+### Initial thoughts
+- Okay it was actually a while ago when I did this but i didnt have time to commit it.
+- I think i did this on a car ride and then just didnt commit it, especially cause it was just for practice
+- It wasnt that bad just like I had to put all big numbers in one array and then add the max from the other leftover array
+
+## Mickey Mouse Constructive
+Link: 
+---
+### Initial Thoughts
+- Yeah that's not done, I was practicing constructive algorithms so ill get back to that hopefully
